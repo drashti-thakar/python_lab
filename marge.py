@@ -1,0 +1,7 @@
+src=open("my self.txt","r")
+data=src.read()
+src.close()
+dst=open("clg.txt","w")
+dst.write(data)
+dst.close()
+print("file copied successfully")
