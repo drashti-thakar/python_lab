@@ -1,0 +1,10 @@
+f=open("1.txt","r")
+data=f.read()
+print("file content:",data)
+f.close()
+
+f=open("1.txt","w")
+f.write("hello student\n")
+f.write("welcome to python file handling.\n")
+f.write("learning is fun!\n")
+f.close()
